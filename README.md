@@ -4,17 +4,15 @@
 This project automates the login functionality of the GoZayaan website using Selenium WebDriver with IntelliJ IDEA.
 It demonstrates end-to-end browser automation, element handling, and login validation through a structured testing approach.
 
-⚙️ Technologies Used
-
-Programming Language: Java
-
+**⚙️ Technologies Used**
+Language: Java
 Automation Tool: Selenium WebDriver
-
 IDE: IntelliJ IDEA
+Build Tool: Maven
+Testing Framework: TestNG 
+Browser: Chrome
 
-Build Tool: Maven (if applicable)
 
-Browser: Chrome (configurable)
 **🎯 Project Objective**
 
 The goal of this project is to:
@@ -46,3 +44,24 @@ GoZayaanLoginAutomation/
 ├── README.md                 # Project documentation
 └── testng.xml                # Test configuration (if using TestNG)
 
+**🚀 How to Run**
+
+Clone the repository:
+git clone https://github.com/sozibul23/Selenium_Login_Automation_sadhin.git
+
+Open the project in IntelliJ IDEA.
+Install dependencies via Maven (pom.xml).
+Configure your ChromeDriver path in the setup file.
+
+Run the test using one of the following:
+mvn test
+
+or directly from IntelliJ using the TestNG/JUnit runner.
+
+**🧩 Test Scenario**
+Scenario: Validate login functionality
+Navigate to GoZayaan.com
+Click the Login button.
+Enter valid or invalid credentials.
+Click Submit.
+Validate the login success message or error alert.
