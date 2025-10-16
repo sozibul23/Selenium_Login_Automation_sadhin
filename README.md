@@ -4,13 +4,17 @@
 This project automates the login functionality of the GoZayaan website using Selenium WebDriver with IntelliJ IDEA.
 It demonstrates end-to-end browser automation, element handling, and login validation through a structured testing approach.
 
-**⚙️ Technologies Used**
-Programming Language: Java
-Automation Tool: Selenium WebDriver
-IDE: IntelliJ IDEA
-Build Tool: Maven (if applicable)
-Browser: Chrome (configurable)
+⚙️ Technologies Used
 
+Programming Language: Java
+
+Automation Tool: Selenium WebDriver
+
+IDE: IntelliJ IDEA
+
+Build Tool: Maven (if applicable)
+
+Browser: Chrome (configurable)
 **🎯 Project Objective**
 
 The goal of this project is to:
